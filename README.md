@@ -10,15 +10,8 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Posts](https://github.com/newbiew/tribehired-posts-test/blob/main/img/posts.PNG)
+![Post detail](https://github.com/newbiew/tribehired-posts-test/blob/main/img/post-detail.PNG)
+![Comment search name](https://github.com/newbiew/tribehired-posts-test/blob/main/img/comment-search-by-name.PNG)
+![Comment search email](https://github.com/newbiew/tribehired-posts-test/blob/main/img/comment-search-by-email.PNG)
+![Comment search body](https://github.com/newbiew/tribehired-posts-test/blob/main/img/comment-search-by-body.PNG)
