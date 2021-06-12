@@ -10,6 +10,9 @@ npm install
 npm run serve
 ```
 
+
+below sample screenshot:
+
 ![Posts](https://github.com/newbiew/tribehired-posts-test/blob/main/img/posts.PNG)
 ![Post detail](https://github.com/newbiew/tribehired-posts-test/blob/main/img/post-detail.PNG)
 ![Comment search name](https://github.com/newbiew/tribehired-posts-test/blob/main/img/comment-search-by-name.PNG)
