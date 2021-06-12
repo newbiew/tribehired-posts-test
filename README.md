@@ -1,5 +1,7 @@
 # tribehired posts test
 
+# VueJs 2.0 + Vuex + Vue-Router
+
 ## Project setup
 ```
 npm install
