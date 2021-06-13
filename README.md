@@ -1,6 +1,6 @@
 # tribehired posts test
 
-# VueJs 2.0 + Vuex + Vue-Router
+# VueJs 2.0 + Vuex + Vue-Router + vuetify
 
 ## Project setup
 ```

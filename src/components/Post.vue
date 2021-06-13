@@ -1,10 +1,29 @@
 <template>
-    <div>
-        <h1>Post Detail</h1> 
-        <h3>{{ postDetail.title }}</h3>
-        {{postDetail.body}}
-        
-        <Comments v-bind:id="id" />
+    <div class="Post-detail">
+        <v-card
+            class="mx-auto my-12"
+            max-width="800"
+        >
+            <v-img
+                height="250"
+                src="https://picsum.photos/1000"
+                ></v-img>
+            <v-card-title>{{ postDetail.title }}</v-card-title>
+            <v-card-text>
+                <div>{{postDetail.body}}</div>
+            </v-card-text>
+
+
+            <v-divider class="mx-4"></v-divider>
+
+
+            <v-card-title>Comments</v-card-title>
+
+
+            <Comments v-bind:id="id" />
+
+        </v-card>
+
     </div>
 </template>
 <script>

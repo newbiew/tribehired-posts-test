@@ -1,13 +1,29 @@
 <template>
-    <div>
-        <h3>Posts</h3>
+    <div class="Posts">
+        <h1 class="subheading grey--text">All Posts</h1>
+        <v-card
+            tile
+        >
+            <v-list dense>
+            <v-list-item-group
+                v-model="selectedItem"
+                color="primary"
+            >
+                <v-list-item two-line
+                v-for="post in allPosts" :key="post.id" :to="`post/${post.id}`"
+                >
+                <v-list-item-avatar>
+                    <v-img src="https://i.pravatar.cc/300"></v-img>
+                </v-list-item-avatar>
 
-        <div class="posts">
-            <div v-for="post in allPosts" :key="post.id" class="post">
-                <router-link :to="`post/${post.id}`">{{post.title}}</router-link>
-                <hr />
-            </div>
-        </div>
+                <v-list-item-content>
+                    <v-list-item-title v-text="post.title"></v-list-item-title>
+                    <v-list-item-subtitle>{{ post.body }}</v-list-item-subtitle>
+                </v-list-item-content>
+                </v-list-item>
+            </v-list-item-group>
+            </v-list>
+        </v-card>
     </div>
 </template>
 <script>
